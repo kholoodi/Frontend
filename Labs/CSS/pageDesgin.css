@@ -1,0 +1,23 @@
+.header {
+    background-color: rgb(177, 189, 199);
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(19, 19, 18);
+}
+.topnav a {
+    float: left;
+    display:block;
+    color: wheat;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.topnav a:hover {
+    background-color: white;
+    color: rgb(14, 13, 13);
+}
