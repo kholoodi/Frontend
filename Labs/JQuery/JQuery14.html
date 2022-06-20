@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-80"/>
+        <title>Adding the class to element with JQuery </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <style type="text/css">
+            .page-header {
+                color: rgb(194, 27, 27);
+                text-transform:uppercase;
+            }
+            .highLight{
+                background-color: rgb(189, 186, 18);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Demo Text </h1>
+        <p > lorem ipsum dolor sit amet, consectetur adipiscing etlf..   </p>
+        <p class = "hint"> <strong>Tips: </strong> lorem ipsum is domy text  </p>
+        <button type="button"> Add class </button>
+
+        <script type="text/javascript">
+            $(document).ready(function(){ 
+                $("button").click(function(){
+                $("h1").addClass("page-header");
+                $("p.hint").addClass("highLight");
+                });
+            });             
+      </script>
+      </body>
+</html>

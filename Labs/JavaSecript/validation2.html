@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Tech Campus</h1>
+        <p>Please Enter nmbers between 1 -10 </p>
+        <input id="nmbers" > 
+            
+            <button type="button" onclick="vaildationNumber()"> Submit</button><br>
+            <p style="color:red;" id = "demo"></p>
+      
+            <script>
+                function vaildationNumber(){
+                    var x, text;
+                    //Get value that Enter from id "nmbers" 
+                    x = document.getElementById("nmbers").value;
+                    //if x not a number or less than 1 or grater than 10
+                    if(isNaN(x) || x < 1 || x > 10)
+                    {
+                        text = "Input Not Vaild"
+                    }
+                    else 
+                    {
+                        text = "Input OK"
+                    }
+                    document.getElementById('demo').innerHTML = text;
+                }
+                
+            </script>
+    
+
+</html>

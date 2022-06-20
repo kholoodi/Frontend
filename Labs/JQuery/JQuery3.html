@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+              $(document).ready(function(){
+                  $("#hide").click(function(){
+                      $("#test").hide();
+
+                  });
+                  $("#show").click(function(){
+                      $("#test").show()
+
+                  });
+              }) ; 
+                
+        </script>
+    </head>
+    <body>
+        <h1>Tech Campus</h1>
+        <p>jQuery Course  </p>
+        <p id = "test" style="background-color: seagreen; 
+                            width: 200px; height: 100px;
+                            color: seashell;
+                             font-size: medium;
+                             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                             If you click on "Hide" button I will disappared </p>
+       
+        <button id = "hide">Hide</button>
+        <button id = "show" >Show</button>
+      </body>
+</html>

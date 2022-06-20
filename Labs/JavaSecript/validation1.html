@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function vaildationForm(){
+                var x = document.forms["myform"]["fname"].value;
+                if(x == ""){
+                    document.getElementById("Ename").innerHTML ="Please Enter ypur name";
+                   // alert("Name must be filled out");
+                   
+                    return false;
+                }
+            }
+            
+        </script>
+
+    </head>
+    <body>
+        <h1>Tech Campus</h1>
+        <p>javasecript course </p>
+        <form name="myform" onsubmit="return vaildationForm()" method="post">
+            Name: <input type="text" name="fname"> <span id ="Ename" style="color: red;"></span>
+            <br>
+            <input type="submit" name ="Submit">
+        </form>
+       
+
+</html>

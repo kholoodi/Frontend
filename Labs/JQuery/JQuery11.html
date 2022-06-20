@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-80"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <style type="text/css">
+            p {
+                padding: 15px;
+                background: khaki;
+            }
+        </style>
+    </head>
+    <body>
+        <p> This is a pragraph </p>
+        <p> This is anthor  pragraph </p>
+        <button type="button" class="hide-btn">Hide the pragrphs </button>
+        <button type="button" class="show-btn">Show the pragrphs </button>
+
+        
+        <script type="text/javascript">
+            $(document).ready(function(){ 
+                //access to button via class name 
+            $(".hide-btn").click(function(){
+                 //hide() element
+               $("p").hide();
+            });
+            $(".show-btn").click(function(){
+                 //show() element
+                $("p").show();
+            });
+
+            });             
+      </script>
+      </body>
+</html>
+

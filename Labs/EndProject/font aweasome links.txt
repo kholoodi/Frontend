@@ -1,0 +1,8 @@
+
+link for font awesome liberly version 5.8.1 
+
+<script  rel="stylesheet" src="https://kit.fontawesome.com/3562a0c882.js" crossorigin="anonymous"></script>
+
+link for font awesome liberly version 5.15.4
+
+<script src="https://kit.fontawesome.com/3562a0c882.js" crossorigin="anonymous"></script>

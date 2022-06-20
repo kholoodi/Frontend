@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-80"/>
+        <title>Method Chainging  </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <style type="text/css">
+            p {
+                width: 200px;
+                padding: 40px 0px;
+                font: bold 24px  sans-serif;
+                text-align: center;
+                background: khaki;
+                border: 1px solid #360a36;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <p > Hello world </p>
+        <button type="button" class="start">Start changing </button>
+        <button type="button" class="restar">Restart  </button>
+
+        <script type="text/javascript">
+            $(document).ready(function(){ 
+                //toggle (hide/show) ainmated 
+            $(".start").click(function(){
+                
+               $("p").animate({ width: "100%" })
+                     .animate({fontSiz: "46px"})
+                     .animate({ borderWidth: 30})
+            });
+            $(".restar").click(function(){
+                
+                $("p").removeAttr("style")
+             });
+            
+
+            });             
+      </script>
+      </body>
+</html>
+

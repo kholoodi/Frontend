@@ -1,0 +1,279 @@
+@import url(lightslider.css);
+
+/**body style */
+body {
+    font: 400 15px sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    text-align: center;
+    margin: 10px;
+}
+/***Navbar style*/
+.navbar-custom {
+    background-color: #1083c6;
+}
+/****change the brand text and color**/
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #fff;
+    font-weight: bold;
+}
+/*****Navbar link******/
+.navbar-custom .navbar-nav .nav-link
+{
+    color: #fff;
+    font-weight: bold;
+}
+/*****Navbar link=> change active link ******/
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+
+    color: #a5f5e7;
+}
+/*****Dropdown menu*****/
+
+.dropdown-menu {
+    background-color: #1083c6;
+}
+.dropdown-menu a{
+    background-color: #1083c6;
+}
+.dropdown-menu>li>a {
+    color: #fff;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+    color: rgb(55, 154, 247);
+    text-decoration: none;
+    background-color: #d8f0fa;
+}
+/*****Add to cart *****/
+.add-to-cart *{ 
+    color: #fff;
+    padding: 10px;
+
+}
+.add-to-cart a:hover {
+    text-decoration: none;
+    color: #a5f5e7;
+}
+/********** style section 1 ***********/
+.section1{
+    margin-top: 115px;
+}
+ul#product_header_slide li img {
+    height: auto;
+    max-width: 150px;
+    display: block;
+}
+/*********** Class from Lightsliders Libarly *******/
+.ISSLideOuter .ISPager .ISpg > li:hover a,.ISSLideOuter .ISPager .ISpg{
+    background-color: #cccccc;
+
+}
+.ISSLideOuter .ISPager .ISpg > li:hover a {
+background-color: #008bff;
+}
+ul.ISPager .ISpg {
+    margin-top: -27px !important;/**!important => code must excuted  */
+}
+.ISSLideOuter .ISPager .ISpg >li a {
+    height: 12px;
+    width: 12px;
+}
+/******section 2*****************/
+
+.main_heading{
+    background: #ffff;
+    display:inline-block;
+    width: 100%;
+    color: #1f2343;
+    padding: 0px 25px;
+}
+ul#topproduct_slid img{
+    width: 100%;
+}
+.topproduct_slid_section {
+    width: 90%;
+    margin: 25px auto;
+    background: #f1f1f1;
+}
+.section2{
+    background: #f1f1f1;
+    display: inline-block;
+    width: 100%5;
+}
+.main_heading h3 {
+    font-weight: 700;
+}
+#topproduct_slid li {
+    text-align: center;
+    background: #ffff;
+    cursor: pointer;
+}
+#topproduct_slid li > div {
+    width: calc( 100% - 30px);
+    margin: 10px auto;
+}
+#topproduct_slid li label{
+    color: #29272c;
+    font-size: 100%;
+    margin: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+#topproduct_slid li la del {
+    color: #57565b;
+}
+
+/*********section 3 ***********/
+.section3 .section3 .main_heading {
+    background: #fafafa;
+    color: #1f2343;
+}
+.section3 .select_menu ul{
+    margin: auto;
+    bottom: #ffff;
+}
+.section3 .select_menu ul li {
+    width: 20%;
+    margin: auto -5px auto auto;
+    text-align: center;
+    font-size: 100%;
+    line-height: 1em;
+    background: #fff;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 18px;
+    position: relative;
+    overflow: hidden;
+    max-height: 50px;
+}
+.section3 .select_menu ul li.active, .section3 .select_menu ul li:hover{
+    background: #f76f6f;
+    color: #ffff;
+}
+.section3 .select_menu ul li .active {
+    overflow: visible;
+}
+.section3 .select_menu {
+    margin: 30px auto;
+    box-shadow: 1px 1px 10px #f6f6f6;
+}
+.section3 .select_menu ul li .active{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -12px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: #f76f6f transparent transparent transparent;
+}
+.items_menus li * {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 1em;
+    word-wrap: break-word;
+}
+.items_menus li div{
+    border:  1px solid  #f6f6f6;
+    padding: 10px;
+    background: #fff;
+    width: 200%;
+    margin: auto;
+}
+
+.items_menus li > div >div > img {
+    max-width: 100%;
+    margin: auto;
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    right: 0px;
+}
+.items_menus li > div >div{
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    position: relative;;
+}
+.items_menus li > div> span {
+    color: #f76f6f;
+    font-size: 30px;
+    line-height: 1em;
+    margin: 10px auto 5px;
+}
+.items_menus li {
+    margin: 10px 15px;
+    cursor: pointer;
+}
+.items_selectmenu .items_menus {
+    display: none;
+}
+.items_selectmenu .items_menus.active {
+    display: block;
+}
+#projects li {
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    width: 23.5%;
+}
+#projects li:nth-child(4n){
+    margin-right: 0px;
+}
+.wapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+footer{
+    display: inline-block;
+    background: #1c4e7f;
+    width: 100%;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: -5px;
+}
+footer p{
+    margin: auto;
+    text-align: left;
+}
+footer ul {
+    list-style: none;
+    padding: 30px;
+    margin: 30px;
+    text-align: right;
+}
+footer ul li {
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+    height: 25px;
+    background-size: cover;
+    margin: auto 15px;
+
+}
+footer li .fb-icon{
+    background-position: 118px 0px ;
+    color: #f6f6f6;
+    display: inline-block;
+
+    
+}
+footer li .tw-icon{
+    background-position:35px 0px ;
+    color: #f6f6f6;
+
+
+}
+footer li .fa-brands .fa-facebook{
+    background-color: #f1f1f1;
+}

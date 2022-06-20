@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+    </head>
+    <body>
+      
+        <p id = "mark">This a Pragraph </p>
+        <p> This is anthor pargraph </p>
+        <p> This is one more Pragraph </p>
+        <p> <strong>Nots:</strong> The value of the id must be unique in HTMl document </p>
+        <script>
+            $(document).ready(function(){
+                //تأخير ظهور id 
+            $("#mark").css("background", "Yellow").slideUp(300).delay(800).fadeIn(400);
+            }) ; 
+              
+      </script>
+      </body>
+</html>

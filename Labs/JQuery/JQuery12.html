@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-80"/>
+        <title>Ainmated togle effict </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <style type="text/css">
+            p {
+                padding: 15px;
+                background: khaki;
+            }
+        </style>
+    </head>
+    <body>
+        <button type="button" class="toggle-btn">toggle pragrphs </button>
+        <p class="Ver-fast"> This pragraph will show/hide very fast speed.</p>
+        <p class="fast"> This pragraph will show/hide  fast speed.</p>
+        <p class="normal"> This pragraph will show/hide normal speed.</p>
+        <p class="slow"> This pragraph will show/hide slow speed.</p>
+        <p class="Ver-slow"> This pragraph will show/hide very slow speed.</p>
+
+        
+        <script type="text/javascript">
+            $(document).ready(function(){ 
+                //toggle ainmated 
+            $(".toggle-btn").click(function(){
+               $("p.normal").toggle();
+               $("p.fast").toggle("fast");
+               $("p.slow").toggle("slow");
+               $("p.Ver-fast").toggle(50);
+               $("p.Ver-slow").toggle(2000);
+            });
+            
+
+            });             
+      </script>
+      </body>
+</html>
+
